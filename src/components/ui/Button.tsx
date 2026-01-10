@@ -34,11 +34,11 @@ type NativeButtonProps = BaseProps &
 
 type ButtonProps = LinkButtonProps | NativeButtonProps
 
-const baseStyles = "flex items-center justify-center h-12 rounded-md font-semibold transition-colors duration-200 focus:outline-none w-[190px]"
+const baseStyles = "flex items-center justify-center h-12 rounded-md font-semibold transition-colors duration-200 focus:outline-none w-[160px]"
 
 const variantStyles: Record<ButtonVariant, string> = {
     primary: "bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500",
-    secondary: "bg-transparent border border-gray-600 duration-700 text-black hover:bg-black hover:text-white focus:ring-black transition-color",
+    secondary: "bg-transparent border border-gray-200 duration-700 text-black hover:bg-black hover:text-white focus:ring-black transition-color",
 }
 
 const Button: React.FC<ButtonProps> = ({ children, className = '', text, variant = 'primary', ...props }) => {
@@ -51,6 +51,7 @@ const Button: React.FC<ButtonProps> = ({ children, className = '', text, variant
 
     return (
         <button className={styles} {...props}>{content}</button>
+
     )
 }
 

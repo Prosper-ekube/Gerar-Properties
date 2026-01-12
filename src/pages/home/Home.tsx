@@ -1,6 +1,7 @@
 import Navbar from "../../components/layout/Navbar"
 import Hero from "./sections/Hero"
 import FeaturedProperties from "./sections/FeaturedProperties"
+import Testimonials from "./sections/Testimonials"
 import Footer from "../../components/layout/Footer"
 
 const Home: React.FC = () => {
@@ -9,6 +10,7 @@ const Home: React.FC = () => {
             <Navbar />
             <Hero />
             <FeaturedProperties />
+            <Testimonials />
             <Footer />
         </>
     )

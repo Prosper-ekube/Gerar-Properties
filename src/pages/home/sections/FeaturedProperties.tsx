@@ -41,8 +41,8 @@ const FeaturedProperties: React.FC = () => {
     ]
 
     return (
-        <section className="bg-white py-20">
-            <div className="container max-w-[400px] md:max-w-7xl mx-auto px-4">
+        <section className="bg-white">
+            <div className="container max-w-[400px] md:max-w-7xl mx-auto px-4 lg:px-6 py-12 lg:pb-20 lg:pt-28">
                 {/* Header */}
                 <div className="flex flex-col md:flex-row gap-4 justify-between mb-4 lg:mb-12 md:items-end">
                     <div className="flex flex-col items-center md:items-start justify-center">

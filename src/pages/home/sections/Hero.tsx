@@ -3,9 +3,9 @@ import hero_img from "../../../assets/images/hero_img.png"
 
 const Hero: React.FC = () => {
     return (
-        <section className="bg-[#F9FAFB] w-full">
-            <div className="flex flex-col-reverse sm:flex-col-reverse lg:flex-row gap-10 items-center mx-auto px-4 py-24 lg:px-8 lg:py-32 md:gap-16 
-                            lg:gap-0 min-[1200px]:w-[1180px]">
+        <section className="bg-gray-50 w-full">
+            <div className="flex flex-col-reverse sm:flex-col-reverse lg:flex-row gap-10 items-center mx-auto px-4 pt-28 pb-12 lg:px-6 lg:py-32 md:gap-16 
+                            lg:gap-0 xl:w-[1280px]">
                 {/* Left Text Section */}
                 <div className="flex flex-col items-center lg:items-start gap-6 text-center lg:text-left w-full">
                     <h1 className="font-semibold lg:font-bold leading-tight max-w-[335px] md:max-w-[600px] lg:max-w-[390px] text-gray-900 text-3xl md:text-5xl">

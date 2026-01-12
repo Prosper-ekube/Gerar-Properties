@@ -29,8 +29,8 @@ const TestimonialsSection: React.FC = () => {
     ]
 
     return (
-        <section className="bg-gray-50 px-6 lg:px-8 py-10">
-            <div className="max-w-7xl mx-auto">
+        <section className="bg-gray-50">
+            <div className="max-w-7xl mx-auto px-4 lg:px-6 py-12 lg:pb-20 lg:pt-28">
                 {/* Header */}
                 <div className="mb-6 text-center">
                     <h2 className="font-semibold text-center text-gray-900 text-2xl md:text-4xl">What Our Clients Say</h2>

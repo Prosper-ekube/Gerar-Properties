@@ -1,11 +1,17 @@
-import Filters from "./sections/Filters"
+import Navbar from "../../components/layout/Navbar"
+import Header from "./sections/Header"
 import PropertyList from "./sections/PropertyList"
+import Footer from "../../components/layout/Footer"
 
 const Properties: React.FC = () => {
     return (
         <>
-            <PropertyList />
-            <Filters />
+            <Navbar />
+            <main>
+                <Header />
+                <PropertyList />
+            </main>
+            <Footer />
         </>
     )
 }

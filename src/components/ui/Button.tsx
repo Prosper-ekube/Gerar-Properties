@@ -34,7 +34,7 @@ type NativeButtonProps = BaseProps &
 
 type ButtonProps = LinkButtonProps | NativeButtonProps
 
-const baseStyles = "flex items-center justify-center h-12 rounded-md font-semibold transition-colors duration-200 focus:outline-none w-[160px]"
+const baseStyles = "flex items-center justify-center h-12 rounded-md font-medium transition-colors duration-200 focus:outline-none w-[160px]"
 
 const variantStyles: Record<ButtonVariant, string> = {
     primary: "bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500",
